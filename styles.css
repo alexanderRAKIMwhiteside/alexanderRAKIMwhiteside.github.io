@@ -917,7 +917,7 @@ a.lightbox-close:after {
 
 /*smartphone styles*/
 
-@media screen and (max-width:768px) {
+@media screen and (max-width:800px) {
     
     footer {
         width: 80%;
