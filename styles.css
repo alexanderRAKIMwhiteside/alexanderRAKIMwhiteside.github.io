@@ -64,7 +64,7 @@ footer p {
     font-family: 'Lato', sans-serif;
     font-weight: 300;
     font-style: normal;
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     color: dimgray;
     text-align: justify;
     text-transform: lowercase;
@@ -798,7 +798,7 @@ a.lightbox-close:after {
     }
     
     footer p{
-        font-size: 1.0rem;
+        font-size: 1.2rem;
     }
     
     h1 {
@@ -924,7 +924,7 @@ a.lightbox-close:after {
     }
     
     footer p {
-        font-size: .8rem;
+        font-size: 1.0rem;
     }
     
     h1 {
