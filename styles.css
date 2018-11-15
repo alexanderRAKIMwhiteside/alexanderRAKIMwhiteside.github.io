@@ -244,7 +244,7 @@ p.mission {
     font-size: 3rem;
     font-family: 'Lato', sans-serif;
     color: dimgray;
-    font-weight:100;
+    font-weight:300;
     font-style: italic;
     width: 625px;
     margin-bottom: 0;
@@ -254,7 +254,7 @@ p.motto {
     font-size: 3rem;
     font-family: 'Lato', sans-serif;
     color: dimgray;
-    font-weight:100;
+    font-weight:300;
     font-style: italic;
     width: 475px;
     margin-top: 0;
@@ -310,7 +310,7 @@ span.definition {
     font-family: 'Lato', sans-serif;
     font-size: 1.6rem;
     color: dimgray;
-    font-weight: 100;
+    font-weight: 300;
 }
 
 span.info {
