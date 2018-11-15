@@ -929,6 +929,7 @@ a.lightbox-close:after {
     
     h1 {
         margin-top: 10px;
+        width: 100%;
     }
     
     h2 {
