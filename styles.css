@@ -50,14 +50,7 @@ footer {
     box-sizing: border-box;
     margin: 150px auto 50px;
     clear: both;
-    height: 50px;
     width: 80%;
-}
-
-footer:after {
-    content: "";
-    clear: both;
-    display: block;
 }
 
 footer p {
