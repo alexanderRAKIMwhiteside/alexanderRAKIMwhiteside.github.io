@@ -48,7 +48,7 @@ body {
 footer {
     display: block;
     box-sizing: border-box;
-    margin: 150px auto 0;
+    margin: 150px auto 10px;
     clear: both;
     height: 50px;
     width: 80%;
