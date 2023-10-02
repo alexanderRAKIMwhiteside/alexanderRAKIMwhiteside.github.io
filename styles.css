@@ -9,7 +9,7 @@ a:visited {
 }
 
 a .thumbnail:hover {
-    background-color: rgba(211,211,211,.4);
+    background-color: rgba(255,126,84,.25);
     transition: opacity .5s ease-in-out;
 }
 
@@ -40,7 +40,7 @@ body {
     clear: none;
 }
 
-.details .auto-type, .details .flash, .details .yj, .details .hoh, .details .news, .details .list {
+.details .auto-type, .details .flash, .details .yj, .details .hoh, .details .news, .details .list, .details .kraken, .details .manticore, .details .booth, .details .catalog, .details .photography {
     height: 150px;
     width: 100%;
 }
@@ -54,13 +54,12 @@ footer {
 }
 
 footer p {
-    font-family: 'Lato', sans-serif;
+    font-family: 'Kanit', sans-serif;
     font-weight: 300;
     font-style: normal;
     font-size: 1.4rem;
     color: dimgray;
-    text-align: justify;
-    text-transform: lowercase;
+    text-align: center;
 }
 
 header {
@@ -70,7 +69,6 @@ header {
 }
 
 h1 {
-    font-family: 'Playfair';
     font-size: 3.6rem;
     margin: 0 auto;
     margin-top: 0px;
@@ -83,11 +81,14 @@ h1 {
 }
 
 h2 {
-    font-family: 'Lato', sans-serif;
-    font-weight: 900;
+    font-family: 'Kanit', sans-serif;
+    font-weight: 600;
     color: coral;
     font-size: 2.4rem;
-    text-transform: lowercase;
+}
+
+h2#main-cat {
+    text-transform: uppercase;
 }
 
 h2 a {
@@ -96,15 +97,15 @@ h2 a {
 }
 
 h2 a:hover {
+    font-weight: 800;
     font-style: italic;
     text-transform: uppercase;
 }
 
 h3 {
-    font-family: 'Lato', sans-serif;
+    font-family: 'Kanit', sans-serif;
     font-size: 1.8rem;
     color: coral;
-    text-transform: lowercase;
 }
 
 html {
@@ -116,8 +117,11 @@ img {
 }
 
 img.bio-pic {
-    float: right;
-    width: 15%;
+    float: left;
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 50%;
     clear: right;
 }
 
@@ -169,14 +173,13 @@ nav ul {
 nav ul li {
     float: left;
     width: 25%;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Kanit', sans-serif;
     font-size: 1.5rem;
-    font-weight: 900;
+    font-weight: 700;
     font-style: normal;
     margin: 0 auto;
     height: 30px;
     padding-top: 5px;
-    text-transform: lowercase;
 }
 
 nav ul a li {
@@ -199,7 +202,6 @@ nav ul a.current li {
 nav ul a li:hover {
     color: coral;
     font-weight: 900;
-    font-style: italic;
     text-transform: uppercase;
 }
 
@@ -208,14 +210,11 @@ object {
 }
 
 .pitch {
-    width: 60%;
-    margin-bottom: 50px;
-    float: left;
-    margin-top: 0;
+    width: 75%;
 }
 
 p.contact {
-    font-family: 'Lato', sans-serif;
+    font-family: 'Kanit', sans-serif;
     color: dimgray;
     font-size: 2.0rem;
     font-weight: 300;
@@ -228,14 +227,12 @@ p.contact a {
 }
 
 p.contact a:hover {
-    text-transform: uppercase;
-    font-style: italic;
     font-weight: 900;
 }
 
 p.mission {
     font-size: 3rem;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Kanit', sans-serif;
     color: dimgray;
     font-weight:300;
     font-style: italic;
@@ -244,24 +241,22 @@ p.mission {
 }
 
 p.motto {
-    font-size: 3rem;
-    font-family: 'Lato', sans-serif;
+    font-size: 2.1rem;
+    font-family: 'Kanit', sans-serif;
     color: dimgray;
     font-weight:300;
-    font-style: italic;
-    width: 475px;
+    width: 67%;
     margin-top: 0;
 }
 
 p#tagline {
-    font-family: 'Lato', sans-serif;
+    font-family: 'Kanit', sans-serif;
     color: coral;
     font-size: 2.6rem;
     font-weight: 300;
     text-align: center;
     margin-top: 9px;
     margin-bottom: 50px;
-    text-transform: lowercase;
 }
 
 .resume-home {
@@ -279,17 +274,15 @@ p#tagline {
     right: 0;
 }
 
-span#alexander,#whiteside {
+span#AW {
+    font-family: 'Kanit', sans-serif;
     color: coral;
-    font-weight: 400;
-    font-style: italic;
-    text-transform: lowercase;
+    font-weight: 200;
 }
 
 span.caption {
     color: dimgray;
     font-weight: 900;
-    text-transform: lowercase;
 }
 
 span#dead a:hover {
@@ -299,8 +292,8 @@ span#dead a:hover {
     text-decoration: none;
 }
 
-span.definition {
-    font-family: 'Lato', sans-serif;
+.definition {
+    font-family: 'Kanit', sans-serif;
     font-size: 1.6rem;
     color: dimgray;
     font-weight: 300;
@@ -308,11 +301,10 @@ span.definition {
 
 span.info {
     font-weight: 300;
-    text-transform: lowercase;
 }
 
 span.next a{
-    font-family: 'Lato', sans-serif;
+    font-family: 'Kanit', sans-serif;
     float: right;
     text-decoration: none;
     color: lightgray;
@@ -322,7 +314,7 @@ span.next a{
 }
 
 span.previous a {
-    font-family: 'Lato', sans-serif;
+    font-family: 'Kanit', sans-serif;
     float: left;
     text-decoration: none;
     color: lightgray;
@@ -339,15 +331,16 @@ span.next a:hover, span.previous a:hover {
 }
 
 span#rakim {
+    font-family: 'Playfair';
     color: coral;
     font-weight: 900;
 }
 
 span.term {
-    font-family: 'Lato', sans-serif;
+    font-family: 'Kanit', sans-serif;
     font-size: 2.0rem;
     color: dimgray;
-    font-weight: 900;
+    font-weight: 800;
 }
 
 .summary {
@@ -369,6 +362,7 @@ ul.works-demo {
     margin: 0 auto;
     height: auto;
     width: 100%;
+    border-bottom: 1px solid coral;
 }
 
 ul.works-demo:after {
@@ -451,7 +445,7 @@ ul.works-display h2 a:hover {
 
 ul.works-display li p {
     margin-top: 0px;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Kanit', sans-serif;
     color: dimgrey;
     margin-bottom: 3px;
 }
@@ -474,7 +468,7 @@ ul.works-display li p {
 .work-description p {
     margin-top: 10px;
     margin-bottom: 0px;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Kanit', sans-serif;
     color: dimgray;
     font-size: 1.4rem;
     font-weight: 300;
@@ -487,7 +481,7 @@ ul.works-display li p {
     display: block;
     width: 57.5%;
     height: 390px;
-    background-image: url(assets/images/smokin-bbq.jpg);
+    background-image: url(assets/images/interactive_web/smokin-bbq.jpg);
     background-size: cover;
     background-position: left;
     background-repeat: no-repeat;
@@ -503,7 +497,7 @@ ul.works-display li .bbq {
     display: block;
     width: 57.5%;
     height: 390px;
-    background-image: url(assets/images/form.jpg);
+    background-image: url(assets/images/interactive_web/form.jpg);
     background-size: cover;
     background-position: 35% 0%;
     background-repeat: no-repeat;
@@ -519,7 +513,7 @@ ul.works-display li .form {
     display: block;
     width: 57.5%;
     height: 390px;
-    background-image: url(assets/images/dfcustom-knives.jpg);
+    background-image: url(assets/images/interactive_web/dfcustom-knives.jpg);
     background-size: cover;
     background-position: top;
     background-repeat: no-repeat;
@@ -535,7 +529,7 @@ ul.works-display li .knife {
     display: block;
     width: 57.5%;
     height: 400px;
-    background-image: url(assets/images/process-book-pg.jpg);
+    background-image: url(assets/images/interactive_web/process-book-pg.jpg);
     background-size: cover;
     background-position: top;
     background-repeat: no-repeat;
@@ -543,7 +537,7 @@ ul.works-display li .knife {
 }
 
 .details .list {
-    background-image: url(assets/images/la-process-wf.jpg);
+    background-image: url(assets/images/interactive_web/la-process-wf.jpg);
     background-position: right;
 }
 
@@ -552,7 +546,7 @@ ul.works-display li .knife {
     display: block;
     width: 57.5%;
     height: 400px;
-    background-image: url(assets/images/designNews-screenshot-index.jpg);
+    background-image: url(assets/images/interactive_web/designNews-screenshot-index.jpg);
     background-size: cover;
     background-position: 38% 0%;
     background-repeat: no-repeat;
@@ -560,13 +554,13 @@ ul.works-display li .knife {
 }
 
 .details .news {
-    background-image: url(assets/images/designNews-screenshot-articles.jpg);
+    background-image: url(assets/images/interactive_web/designNews-screenshot-articles.jpg);
     background-position: 38% 0%;
     
 }
 
 .details.right .news {
-    background-image: url(assets/images/designNewsProductScreencap.jpg);
+    background-image: url(assets/images/interactive_web/designNewsProductScreencap.jpg);
 }
 
 ul.works-display li .news {
@@ -579,7 +573,7 @@ ul.works-display li .news {
     display: block;
     width: 57.5%;
     height: 400px;
-    background-image: url(assets/images/typeCover.jpg);
+    background-image: url(assets/images/graphic/auto-type/typeCover.jpg);
     background-size: cover;
     background-position: top;
     background-repeat: no-repeat;
@@ -587,18 +581,18 @@ ul.works-display li .news {
 }
 
 .details .auto-type {
-    background-image: url(assets/images/autoTypeSpread.jpg);
+    background-image: url(assets/images/graphic/auto-type/autoTypeSpread.jpg);
 }
 
 .details.right .auto-type {
-    background-image: url(assets/images/autoTypeSpread2.jpg);
+    background-image: url(assets/images/graphic/auto-type/autoTypeSpread2.jpg);
 }
 
 .flash {
     display: block;
     width: 57.5%;
     height: 400px;
-    background-image: url(assets/images/whitewall-flash-mockup.jpg);
+    background-image: url(assets/images/graphic/flash/whitewall-flash-mockup.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -606,18 +600,18 @@ ul.works-display li .news {
 }
 
 .details .flash {
-    background-image: url(assets/images/flash-poster.JPG);
+    background-image: url(assets/images/graphic/flash/flash-poster.JPG);
 }
 
 .details.right .flash {
-    background-image: url(assets/images/frame-over-bed_flashmockup.jpg);
+    background-image: url(assets/images/graphic/flash/frame-over-bed_flashmockup.jpg);
 }
 
 .hoh {
     display: block;
     width: 57.5%;
     height: 400px;
-    background-image: url(assets/images/hospitalOfHope.jpg);
+    background-image: url(assets/images/graphic/hoh/hospitalOfHope.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -626,7 +620,7 @@ ul.works-display li .news {
 }
 
 .details .hoh {
-    background-image: url(assets/images/hoh-final-comp.jpg);
+    background-image: url(assets/images/graphic/hoh/hoh-final-comp.jpg);
 }
 
 .hope {
@@ -634,18 +628,105 @@ ul.works-display li .news {
     display: block;
     width: 57.5%;
     height: 400px;
-    background-image: url(assets/images/hope-coaster.JPG);
+    background-image: url(assets/images/graphic/hope/hope-coaster.JPG);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     float: left;
 }
 
+.kraken {
+    display: block;
+    width: 57.5%;
+    height: 400px;
+    background-image: url(assets/images/graphic/kraken/kraken-box-down.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    float: left;
+}
+
+.details .kraken {
+    background-image: url(assets/images/graphic/kraken/kraken-box-rear.jpg);
+}
+
+.details.right .kraken {
+    background-image: url(assets/images/graphic/kraken/kraken-box.jpg);
+}
+
+.manticore {
+    display: block;
+    width: 57.5%;
+    height: 400px;
+    background-image: url(assets/images/graphic/manticore/product-manticore_trigger_assembly-ruger-1022-rock-box-lndscp.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    float: left;
+}
+
+.details .manticore {
+    background-image: url(assets/images/graphic/manticore/manticore_trigger_assembly-ruger-1022-full_logo-stroke.png);
+}
+
+.booth {
+    display: block;
+    width: 57.5%;
+    height: 400px;
+    background-image: url(assets/images/graphic/booth/gaos_2023-tk-booth-design.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    float: left;
+}
+
+.details .booth {
+    background-image: url(assets/images/graphic/booth/gaos_2023-tk-booth.jpg);
+}
+
+.catalog {
+    display: block;
+    width: 57.5%;
+    height: 400px;
+    background-image: url(assets/images/graphic/catalog/2023-tandemkross-catalog-cover.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    float: left;
+}
+
+.details .catalog {
+    background-image: url(assets/images/graphic/catalog/2023-tandemkross-catalog-pages-2.jpg);
+}
+
+.details.right .catalog {
+    background-image: url(assets/images/graphic/catalog/2023-tandemkross-catalog-pages-3.jpg);
+}
+
+.photography {
+    display: block;
+    width: 57.5%;
+    height: 400px;
+    background-image: url(assets/images/graphic/photography/team_tk_competitor-area7-2021.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    float: left;
+}
+
+.details .photography {
+    background-image: url(assets/images/graphic/photography/product-tandemized_kraken-ruger-mkiv_2245-blk_frame-red_xcsrys-log-stump.jpg);
+}
+
+.details.right .photography {
+    background-image: url(assets/images/graphic/photography/product-manticore_trigger_assembly-ruger-1022-stump-red-right.jpg);
+}
+
 .oneMessage {
     display: block;
     width: 57.5%;
     height: 400px;
-    background-image: url(assets/images/oneMessage.jpg);
+    background-image: url(assets/images/graphic/oneMessage/oneMessage.jpg);
     background-size: cover;
     background-position: top;
     background-repeat: no-repeat;
@@ -656,7 +737,7 @@ ul.works-display li .news {
     display: block;
     width: 57.5%;
     height: 400px;
-    background-image: url(assets/images/yellowJacket-1.jpg);
+    background-image: url(assets/images/graphic/yellowJacket/yellowJacket-1.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -664,7 +745,7 @@ ul.works-display li .news {
 }
 
 .details .yj {
-    background-image: url(assets/images/yellowJacket-2.jpg);
+    background-image: url(assets/images/graphic/yellowJacket/yellowJacket-2.jpg);
 }
 
 /* Styles thumbnails and lightbox */
@@ -774,7 +855,7 @@ a.lightbox-close:after {
 /*tablet styles*/
 @media screen and (max-width:1200px) {
     
-    .auto-type, .flash, .yj, .oneMessage, .hoh, .hope, .news, .form, .list, .knife, .bbq {
+    .auto-type, .flash, .yj, .oneMessage, .hoh, .hope, .news, .form, .list, .knife, .bbq, .kraken, .manticore, .booth, .catalog, .photography {
         height: 300px;
     }
     
@@ -782,7 +863,7 @@ a.lightbox-close:after {
         height: 125px;
     }
     
-    .details .auto-type, .details .flash, .details .yj, .details .hoh, .details .news, .details .list {
+    .details .auto-type, .details .flash, .details .yj, .details .hoh, .details .news, .details .list, .details .kraken, .details .manticore, .details .booth, .details .catalog, .details .photography {
         height: 125px;
     }
     
@@ -813,8 +894,8 @@ a.lightbox-close:after {
     }
 
     p.motto {
-        font-size: 2.4rem;
-        width: 350px;
+        font-size: 2rem;
+        width: 100%;
     }
 
     p#tagline {
@@ -830,7 +911,7 @@ a.lightbox-close:after {
         width: 57.5%;
     }
 
-    span.definition {
+    .definition {
         font-size: 1.4rem;
     }
 
@@ -877,7 +958,7 @@ a.lightbox-close:after {
 
     ul.works-display li p {
         margin-top: 0px;
-        font-family: 'Lato', sans-serif;
+        font-family: 'Kanit', sans-serif;
         color: dimgrey;
         margin-bottom: 3px;
     }
@@ -901,7 +982,7 @@ a.lightbox-close:after {
     .work-description p {
         margin-top: 5px;
         margin-bottom: 0px;
-        font-family: 'Lato', sans-serif;
+        font-family: 'Kanit', sans-serif;
         color: dimgray;
         font-size: 1.2rem;
         font-weight: 300;
@@ -932,9 +1013,10 @@ a.lightbox-close:after {
     
     img.bio-pic {
         width: 25%;
+        
     }
     
-    .auto-type, .flash, .yj, .oneMessage, .hoh, .hope, .news, .form, .list, .knife, .bbq {
+    .auto-type, .flash, .yj, .oneMessage, .hoh, .hope, .news, .form, .list, .knife, .bbq, .kraken, .manticore, .booth, .catalog, .photography {
     width: 100%;
     height: 250px;
     float: left;
@@ -960,20 +1042,21 @@ a.lightbox-close:after {
     nav ul li {
         float: none;
         width: 100%;
-        font-family: 'Lato', sans-serif;
+        font-family: 'Kanit', sans-serif;
         font-size: 1.5rem;
-        font-weight: 900;
+        font-weight: 600;
         font-style: normal;
         margin: 0 auto;
         height: 25px;
         padding-top: 0;
         padding-left: 10px;
-        text-transform: lowercase;
+        text-transform: uppercase;
         text-align: left;
     }
 
     nav ul a li {
         color: whitesmoke;
+        text-transform: uppercase;
     }
 
     nav ul a.current li {
@@ -982,7 +1065,7 @@ a.lightbox-close:after {
         margin: 0 auto;
         padding: 0 10 0 0;
         display: block;
-        font-weight: 900;
+        font-weight: 800;
         font-style: italic;
         text-transform: uppercase;
         color: whitesmoke;
@@ -992,7 +1075,7 @@ a.lightbox-close:after {
 
     nav ul a li:hover {
         color: whitesmoke;
-        font-weight: 900;
+        font-weight: 800;
         font-style: italic;
         text-transform: uppercase;
     }
@@ -1002,7 +1085,7 @@ a.lightbox-close:after {
     }
     
     .pitch {
-        width: 60%;
+        width: 100%;
     }
     
     p.contact {
@@ -1016,7 +1099,7 @@ a.lightbox-close:after {
     
     p.motto {
         font-size: 1.6rem;
-        width: 155px;
+        width: 100%;
     }
     
     p#tagline {
@@ -1029,7 +1112,7 @@ a.lightbox-close:after {
         clear: both;
     }
     
-    span.definition {
+    .definition {
         font-size: 1.1rem;
     }
     
@@ -1051,7 +1134,7 @@ a.lightbox-close:after {
         display: block;
     }
     
-    ul.works-demo li .hope, ul.works-demo li .flash, ul.works-demo li .news, ul.works-demo li .form, ul.works-demo li .auto-type, ul.works-demo li .list {
+    ul.works-demo li .hope, ul.works-demo li .flash, ul.works-demo li .news, ul.works-demo li .form, ul.works-demo li .auto-type, ul.works-demo li .list, ul.works-demo li .kraken, ul.works-demo li .manticore, ul.works-demo li .booth, ul.works-demo li .catalog, ul.works-demo li .photography {
         height: 150px;
     }
     
@@ -1062,7 +1145,7 @@ a.lightbox-close:after {
         height: auto;
     }
     
-    ul.works-display li .hope, ul.works-display li .flash, ul.works-display li .oneMessage, ul.works-display li .hoh, ul.works-display li .yj, ul.works-display li .auto-type, ul.works-display li .news, ul.works-display li .form, ul.works-display li .knife, ul.works-display li .list, ul.works-display li .bbq {
+    ul.works-display li .hope, ul.works-display li .flash, ul.works-display li .oneMessage, ul.works-display li .hoh, ul.works-display li .yj, ul.works-display li .auto-type, ul.works-display li .news, ul.works-display li .form, ul.works-display li .knife, ul.works-display li .list, ul.works-display li .bbq, ul.works-display li .kraken, ul.works-display li .manticore, ul.works-display li .booth, ul.works-display li .catalog, ul.works-display li .photography {
         height: 250px;
     }    
     .work-description {

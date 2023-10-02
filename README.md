@@ -1,2 +1,2 @@
 # alexanderRAKIMwhiteside.github.io
-The personal portfolio site of designer Alexander Rakim Whiteside
+The professional portfolio site of designer Alexander Rakim Whiteside
